@@ -1,5 +1,4 @@
 # Prolog-SocialNetworkFriendSuggestions
-Description:
 The SocialNetworkFriendSuggestions code provides a set of predicates to analyze friend connections in a social network and suggest potential friends to individuals. It allows users to explore their immediate friends, count the number of friends they have, and discover friends of friends who could be potential connections.
 
 The code includes the following predicates:
