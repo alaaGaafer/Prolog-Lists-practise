@@ -26,6 +26,7 @@ friend(zainab, rokaya).
 friend(zainab, eman).
 friend(eman, laila).
 
+% _____________________________________________________________________________
 % Q1
 
 is_friend(A, B):-  friend(A, B); friend(B, A).
@@ -191,7 +192,7 @@ peopleYouMayKnowList(Person, InvertedL) :-
 
 
 % _____________________________________________________________________________
-% Bonus 
+% Q7 (Bonus) 
 
 peopleYouMayKnow_indirect(Person, Third_Friend):-
 is_friend(Person, Friend),
